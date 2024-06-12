@@ -1,0 +1,129 @@
+.pomocniDivProfil
+{
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    background:rgb(240, 220, 220);
+    height: 850px;
+    width:300px;
+}
+.pomocniDivProfilll
+{
+    display: flex;
+    flex-direction: row;
+}
+.glavniDivProfil
+{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(250, 234, 231);
+    height: 850px;
+   
+}
+
+@media (max-width:750px) 
+{
+    .glavniDivProfil,.pomocniDivProfilll
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.pomInfo
+{
+    color:rgb(142, 111, 104);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.nijePlacena
+{
+    color:red;
+}
+.redDugmiciPrihvOtkazi
+{
+    display: flex;
+   padding-right: 350px;
+}
+.placenaClanarina
+{
+    color:green;
+}
+.naslovEvidencija
+{
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(142, 111, 104);
+    margin-left:270px;
+    font-style:italic;
+}
+.divClanarina
+{
+    display: flex;
+    flex-direction: column;
+    margin :50px;
+    align-items:flex-start;
+    padding: 5px;
+    margin-left:200px;
+}
+.profilnaSlika
+{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.redZakazi
+{
+   padding-right: 300px;
+}
+.datePickerRow
+{
+    padding-right: 50px;
+}
+.row
+{
+    justify-content: space-between;
+}
+.dugmIzmeni
+{
+    width: 150px;
+    margin-left:20px;
+    
+}
+.chooseFile
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+.unosIzmena
+{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #7d90bd;
+    border: 0;
+    border-radius: 4px;
+    transition: all 250ms ease-in-out;
+    margin-right: 50px;
+
+}
+.btnIzmeniSliku
+{
+    width:150px;
+    height: 40px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+tbody{
+    font-style:italic;
+    
+}
+.dugmence{
+    margin-left: 240px!important;
+    margin-top: 10px;
+    width: 250px;
+}

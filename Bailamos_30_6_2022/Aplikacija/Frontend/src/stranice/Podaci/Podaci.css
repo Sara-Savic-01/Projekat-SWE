@@ -1,0 +1,27 @@
+.placena{
+  color: rgb(24, 155, 24);
+}
+.nijePlacena{
+  color:red;
+}
+.pretrazi{
+  background-color: rgb(225, 225, 238);
+}
+.podaciCont{
+  background-color: rgb(250, 234, 231);
+  height: 750px;
+}
+.Broj{
+  display: none;
+}
+
+.naslovContt{
+  color: rgb(223, 53, 15);
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif; 
+  margin-left:25%;
+  padding-top: 200px;
+}
+.dugmence{
+  margin-left:40%;
+}

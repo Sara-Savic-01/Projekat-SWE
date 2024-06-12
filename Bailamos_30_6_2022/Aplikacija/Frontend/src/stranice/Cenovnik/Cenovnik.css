@@ -1,0 +1,98 @@
+.cenovnikKlasa{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(210, 170, 163);
+}
+
+.cenovnikContainer{
+    background-color: rgb(210, 170, 163);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 0;
+    margin:20px;
+}
+
+.naslovCenovnik{
+    margin-left: 40px;
+    position: relative;
+    color:seashell;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.motivacionaCenovnik{
+    position: relative;
+    margin-top: 20px;
+    color: seashell;
+    font-style: oblique;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.tabelaCenovnik{
+    color: seashell;
+    
+}
+
+.thCenovnik{
+    color:seashell;
+}
+
+.tbodyCenovnik{
+    color: seashell;
+    text-shadow: 0 0 10px rgb(176, 181, 185);
+    transition: 0.5;
+}
+
+.lblSortiraj
+{
+    color:seashell;
+    margin-left: 10px;
+}
+
+.slikaFilter
+{
+    width:30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.selectCenovnik
+{
+    background-color: seashell;
+    margin-left: 10px;
+    height: 30px;
+
+}
+
+.poruke  .studentskiPopust  .probniCas{
+    position: relative;
+    margin:20px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.studentskiPopust{
+    color:seashell;
+    font-style: oblique;
+
+}
+
+.probniCas{
+    color: seashell;
+    font-style: oblique;
+}
+
+.manjeDugme{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(150, 112, 105) !important;
+    color: white;
+}

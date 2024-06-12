@@ -1,0 +1,114 @@
+
+body{
+    background: rgb(192,148,140) !important;
+}
+.oNamaKont
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+  object-fit: contain;
+
+}
+.jumbotron
+{
+  color: rgb(10, 9, 8);
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 18px;
+  
+}
+.badge-dark{
+  background-color: rgb(210, 170, 163) !important;
+}
+
+.onama
+{
+  margin-left: 40px;
+  position: relative;
+  color: #fff;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif; 
+ 
+}
+.form1
+{
+  display: flex;
+  flex-direction: row;
+  border:solid 1px rgb(61, 98, 98);
+  height:45%;
+  
+}
+.bg-image,.hover-zoom
+{
+  width: 50%;
+  
+ 
+
+}
+.hover-zoom img{
+  transition: all 0.3s ease 0s;
+}
+.hover-zoom img:hover
+{
+  transform: scale(1.25);
+}
+p
+{
+  cursor:pointer;
+}
+p span
+  {
+    transition: 0.5s;
+  }
+ 
+ p:hover span{
+    
+    text-shadow: 0 0 0.5px #fff;
+  }
+
+.divText
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif; 
+}
+.nasl
+{
+  margin-top: 20px;
+}
+.info
+{
+  color: yellowgreen;
+}
+h4{
+  color: burlywood;
+  display: flex;
+  justify-content: space-between;
+}
+/*.scala
+{
+  height: 10px;
+  width: 100%;
+  background-color: yellow;
+}*/
+@media screen and (max-width:900px) {
+  .form1 ,.oNamaKont{
+   display: flex;
+   flex-wrap: wrap;
+  
+  }
+}
+

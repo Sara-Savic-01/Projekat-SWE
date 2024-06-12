@@ -1,0 +1,68 @@
+.nastimcontainer{
+    background-color:  rgb(210, 170, 163);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 0;
+}
+.nastimnaslov{
+  margin-top: 40px;
+  position: relative;
+  color: #D7E1E9; 
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;  
+}
+.nastimpodnaslov{
+    align-items: center;
+    position:relative;
+    color: #D7E1E9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-self: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;  
+}
+.nastimInstruktor{
+    
+    flex-direction: row;
+    background-color: #D7E1E9 ;
+    border-radius: 15px;
+    margin: 25px;
+    margin-top: 18px;
+    max-width: 590px;
+}
+.dugmeObrisiNasTim
+{
+    width:100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(178, 138, 131) !important;
+    color: white;
+
+}
+.clanIme{
+    flex-direction: row;
+    color: black ;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}
+.slikaClan{
+    max-width: 590px;
+    max-height: 395px;
+}
+
+.clanOpis{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.clanProfesija{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}

@@ -1,0 +1,57 @@
+.uslugecontainer{ 
+    background-color: #2f4454;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 0;
+    background-color:  rgb(210, 170, 163);
+}
+
+.naslov{
+    margin-top: 40px;
+    position: relative;
+    color: #D7E1E9;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.tip{
+    align-items: center;
+    position:relative;
+    color: #D7E1E9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-self: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
+}
+
+.tekst{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size:20px;
+    cursor:text;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;   
+}
+
+.div{
+    flex-direction: row;
+    background-color: #D7E1E9 ;
+    border-radius: 15px;
+    margin: 25px;
+    margin-top: 18px;
+}
+
+.linija{
+    height: 7px;
+    width: 70%;
+    background-color: #D7E1E9;
+    border-radius: 12px;
+    margin-top: 20px;
+}
